@@ -38,6 +38,7 @@ height = 74.0
 [node name="Player" type="Area2D" unique_id=771827806]
 position = Vector2(7, 9)
 script = ExtResource("1_sweqy")
+speed = null
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=688469034]
@@ -47,5 +48,3 @@ animation = &"up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1669362640]
 shape = SubResource("CapsuleShape2D_j6umk")
-
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
