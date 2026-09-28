@@ -1,4 +1,4 @@
-![game preview](2dgodot_preview.gif)
+![game preview](2dgodot_preview_gr.gif)
 
 My first game made with GDScript
 
